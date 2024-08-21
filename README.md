@@ -1,4 +1,5 @@
 # Distribuição Binomial na Análise da Eficácia de Vacinas
+### Ensaio de Bernoulli
 
 ### Visão Geral
 Este projeto explora a aplicação da Distribuição Binomial para avaliar a eficácia de uma nova vacina em um cenário **simulado**. O estudo envolve uma amostra de 100 pacientes que receberam a vacina, e a análise foca na quantidade de pacientes que permaneceram não infectados pela doença após um determinado período.
@@ -22,13 +23,11 @@ Para calcular a probabilidade de um certo número de sucessos em uma distribuiç
 Logo, foi  calculada a probabilidade de exatamente 90 pacientes (de 100) de serem infectados pela doença, assumindo que a eficácia da vacina é de 95%. 
 E o resultado obtido da probabilidade de 90 pacientes serem infectados foi: **0.0167.**
 
-Ao calcular a probabilidade de pelo menos 90 pacientes não serem infectados, foi somado as probabilidades para todos os valores de 90 até 100. E o resultado foi 
+Ao calcular a probabilidade de pelo menos 90 pacientes não serem infectados, foi somado as probabilidades para todos os valores de 90 até 100. E o resultado foi de **0.9885**.
 
+Em seguida, será apresentado um gráfico com as probabilidades de diferentes números de sucessos (pacientes não infectados) em uma amostra de 100 pacientes.
 
-
-
-
-
+![image](https://github.com/user-attachments/assets/af5622e0-6d43-4bc5-a2f3-f37696a2cbc3)
 
 
 ### Contribuições
