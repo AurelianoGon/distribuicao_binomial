@@ -19,6 +19,12 @@ Além disso, a análise pode ser usada para comparar a eficácia desta nova vaci
 **Cálculos e Resultados**
 Para calcular a probabilidade de um certo número de sucessos em uma distribuição binomial, utilizamos a função **binom.pmf (Probability Mass Function) da biblioteca scipy.stats.** No exemplo fornecido, calculamos a probabilidade de exatamente 90 pacientes (de 100) serem não infectados, assumindo uma eficácia da vacina de 95%.
 
+Logo, foi  calculada a probabilidade de exatamente 90 pacientes (de 100) de serem infectados pela doença, assumindo que a eficácia da vacina é de 95%. 
+E o resultado obtido da probabilidade de 90 pacientes serem infectados foi: **0.0167.**
+
+Ao calcular a probabilidade de pelo menos 90 pacientes não serem infectados, foi somado as probabilidades para todos os valores de 90 até 100. E o resultado foi 
+
+
 
 
 
